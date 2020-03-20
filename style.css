@@ -1,0 +1,148 @@
+body{
+	background-color:#f9f9f9;
+	font-size:16px
+	color:#444;
+	font-family: sans-serif;
+}
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+/*header*/
+header{
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+
+
+
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 49%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.tombol_daftar{
+	background: #1E90FF;
+	color: white;
+	font-size: 11pt;
+	width: 49%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+/*design table 1*/
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}

@@ -1,0 +1,3 @@
+Array ( [id_order] => 5677 [no_meja] => 7 [tanggal] => 2019-02-14 [keterangan] => KK [status_order] => Tersedia [id_detail] => 787987 [masakan] => Array ( [M001] => M001 [M002] => M002 ) [jumlah] => Array ( [M001] => 6 [M002] => 4 ) )
+
+Array ( [id_order] => 5677 [no_meja] => 7 [tanggal] => 2019-02-14 [keterangan] => KK [status_order] => Tersedia [id_detail] => 787987 [jumlah] => Array ( [M001] => 6 [M002] => 4 ) [masakan] => Array ( [M002] => M002 ) )	
